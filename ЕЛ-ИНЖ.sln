@@ -5,6 +5,14 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ЕЛ-ИНЖ", "ЕЛ-ИНЖ\ЕЛ-ИНЖ.csproj", "{C8DF68D6-CC31-4DBA-A314-3EC2783109E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F0B7439-419A-4B75-8AC7-91D7DF93D6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{DC47A001-80E4-42E1-86CB-38B81BC83A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{DB228C3C-B3C3-4DF5-9C8F-46DC7AED8054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{0F4019A0-81A8-4B38-808C-E2E58C3E068C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,18 @@ Global
 		{C8DF68D6-CC31-4DBA-A314-3EC2783109E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8DF68D6-CC31-4DBA-A314-3EC2783109E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8DF68D6-CC31-4DBA-A314-3EC2783109E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC47A001-80E4-42E1-86CB-38B81BC83A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC47A001-80E4-42E1-86CB-38B81BC83A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC47A001-80E4-42E1-86CB-38B81BC83A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC47A001-80E4-42E1-86CB-38B81BC83A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8DF68D6-CC31-4DBA-A314-3EC2783109E9} = {8F0B7439-419A-4B75-8AC7-91D7DF93D6AD}
+		{DC47A001-80E4-42E1-86CB-38B81BC83A07} = {DB228C3C-B3C3-4DF5-9C8F-46DC7AED8054}
+		{DB228C3C-B3C3-4DF5-9C8F-46DC7AED8054} = {8F0B7439-419A-4B75-8AC7-91D7DF93D6AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {199B1A2A-F794-4D2D-BEA2-2683FD318683}
