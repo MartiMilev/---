@@ -1,8 +1,32 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+   <ul class="nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#about">About Us</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#blog">Blog</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Us</a>
+    </li>
+  
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<div class="container">
+    <section id="home" class="my-5">
+        <div class="jumbotron text-center">
+            <h1>Welcome to Your Website</h1>
+    <img src="~/img/home.png" style="width: 75vh" />
+            <p class="lead">This is the home section of your website. Customize it as per your requirements.</p>
+            <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </section>
+
